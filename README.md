@@ -3,7 +3,7 @@ Welcome to my **Object-Oriented Programming Portfolio**!
 ---
 ## 👤 ABOUT ME
 I am [Aljohn Salalac] a College student with a nice personality. I like doing things I love to do. Yes, I do live on earth 
- <img src="https://github.com/user-attachments/assets/73f09086-6cfc-4398-8274-dd34eed29860 " alt="9296c2ed-d1dd-40e4-a4b1-c10480bff417" width="100" height="100">
+ <img src="https://github.com/user-attachments/assets/6f68bcce-d478-45ff-bbe8-e36f9c7c8a1e" alt="ea04f78e-72f0-41df-b426-da2b994d4c31" width="150" height="150">
 ## 💡 AREA OF INTEREST & PROGRAMMING LANGUAGES
 - 💻 **Interests**:
 - Game Developement

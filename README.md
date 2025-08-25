@@ -6,10 +6,10 @@ Welcome to my **Object-Oriented Programming Portfolio**!
    
 I am [Aljohn Salalac] a College student with a nice personality. I like doing things I love to do. Yes, I do live on earth 
 ## 💡 AREA OF INTEREST & PROGRAMMING LANGUAGES
-- 💻 **Interests**:
+ 💻 **Interests**:
 - Game Developement
 - Web Development
-- 🔤 **Languages I Know**:
+ 🔤 **Languages I Know**:
 - C
 - Java
 - SQL

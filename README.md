@@ -15,6 +15,8 @@ I am Aljohn Salalac, a College student with a nice personality. I like doing thi
 - Java
 - SQL
 ## 🚀 PROJECT LINKS
+**Midterm**:
+- Lab Task 1: [Object Oriented Analysis](https://drive.google.com/file/d/1jO0fCtyU487yb0DqV7qlEkMVvbpMDKQv/view?usp=classroom_web&authuser=0&hl=en)
 
 ## 🎉 FUN FACTS ABOUT ME
 - I like playing Chess ♞ and playing video games 🎮

@@ -1,16 +1,33 @@
-theme: null
+title: "Aljohn's OOP Portfolio"
+description: "A Hatsune Miku–themed programming portfolio featuring Java, C, and SQL projects."
+theme: jekyll-theme-cayman
 
-exclude:
-  - README.md
-  - LICENSE
-  - node_modules/
-  - package.json
-  - package-lock.json
-
-keep_files:
-  - miku.css
-  - index.html
-
+# GitHub Pages settings
 markdown: kramdown
-kramdown:
-  input: GFM
+highlighter: rouge
+
+# Author info
+author:
+  name: "Aljohn Paul Salalac"
+  email: ""
+  avatar: "https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02"
+
+# Social links
+social_links:
+  github: "https://github.com/Aljohn013"
+  facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
+
+# Optional: Custom colors for a Miku vibe 💙
+# (uncomment to activate)
+ style: |
+   :root {
+     --color-primary: 00eaff;
+     --color-secondary: 38bdf8;
+    --color-accent: 7df9ff;
+ }
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+

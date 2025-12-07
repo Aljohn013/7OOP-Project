@@ -1,9 +1,9 @@
-title: "💙 Hatsune Miku — OOP Portfolio"
-description: "A futuristic, Miku-themed Object-Oriented Programming Portfolio by Aljohn."
+title: "💙 OOP Portfolio"
+description: "Object-Oriented Programming Portfolio"
 theme: jekyll-theme-modernist
 
 # Enable custom CSS
 markdown: kramdown
 include:
-  - assets/css/custom.css
+  - assets/css/miku.css
 

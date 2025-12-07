@@ -1,27 +1,23 @@
-title: "OOP Portfolio"
-description: "Object-Oriented Programming Portfolio"
+# GitHub Pages Configuration
+# This ensures your portfolio site builds correctly using Jekyll.
 
-# GitHub Pages default theme
-theme: jekyll-theme-modernist
+# Theme is disabled because you're using a custom HTML/CSS setup.
+theme: null
 
-# Markdown engine
-markdown: kramdown
+# Exclude unnecessary files from GitHub Pages processing
+exclude:
+  - README.md
+  - LICENSE
+  - node_modules/
+  - package.json
+  - package-lock.json
 
-# Files GitHub Pages should include
-include:
+# Keep your custom assets
+keep_files:
   - miku.css
   - index.html
-  - README.md
 
-# Excluded files (optional but clean)
-exclude:
-  - "*.psd"
-  - "*.ai"
-  - Gemfile
-  - Gemfile.lock
-
-# Permalink structure (safe)
-permalink: pretty
-
-# Author info (optional)
-author: "Aljohn Paul Salalac"
+# Enable GitHub Pages features
+markdown: kramdown
+kramdown:
+  input: GFM

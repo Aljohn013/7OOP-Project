@@ -1,12 +1,9 @@
-title: "💙 7OOP-Project — Hatsune Miku Edition"
-description: "My Object-Oriented Programming Portfolio — Clean, Colorful & Miku-inspired."
+title: "💙 Hatsune Miku — OOP Portfolio"
+description: "A futuristic, Miku-themed Object-Oriented Programming Portfolio by Aljohn."
 theme: jekyll-theme-modernist
 
-# Add social links (optional)
-social_links:
-  github: Aljohn013
-  facebook: aljohnpaul.salalac.7
-
-# Optional: Add logo
-logo: https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02
+# Enable custom CSS
+markdown: kramdown
+include:
+  - assets/css/custom.css
 

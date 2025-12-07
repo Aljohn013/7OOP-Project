@@ -3,7 +3,7 @@
   <img src="https://i.pinimg.com/originals/8f/13/36/8f1336a31f3a5b29b8bccb9a0c90b9fc.gif" width="260">
 </p>
 
-<h1 align="center">💙 OOP PORTFOLIO — ALJOHN SALALAC 💻🎶</h1>
+<h1 align="center">OOP PORTFOLIO — ALJOHN PAUL SALALAC</h1>
 <p align="center">A stylish and glowing showcase of my Object-Oriented Programming projects!<br>Powered by creativity, code, and a little bit of Miku magic. ✨</p>
 
 ---

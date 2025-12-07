@@ -51,6 +51,7 @@ Hello! I'm **Aljohn Salalac**, a friendly and passionate college student who lov
 ---
 
 ## 🎉 **Fun Facts About Me**
+- 💙💙 I have a REALLY REALLY beautiful, kind, caring, sweet, smart, thoughtful, strong GIRLFRIEND her name is "Reynalyn" and I really really love her 🥰🥰🥰
 - ♞ I LOVE playing chess and video games.  
 - 🕮 Books & literature make my brain happy.  
 - 💤 Sleeping is my secret skill.  

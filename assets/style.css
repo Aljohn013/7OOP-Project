@@ -1,0 +1,37 @@
+/* 🌟 HATSUNE MIKU THEME — AQUA / NEON / CYBER STYLE 🌟 */
+:root {
+--miku-aqua: #00eaff;
+--miku-blue: #38bdf8;
+--miku-light: #b3ffff;
+--miku-dark: #0a1f2d;
+--miku-pink: #ff77d8;
+--text-color: #e8faff;
+}
+html { scroll-behavior: smooth; }
+body {
+background: linear-gradient(135deg, #0a1f2d 20%, #003344 80%);
+color: var(--text-color);
+font-family: "Segoe UI", sans-serif;
+line-height: 1.7;
+padding: 0 20px;
+}
+h1, h2, h3 {
+color: var(--miku-aqua);
+text-shadow: 0 0 8px var(--miku-blue);
+font-weight: 700;
+}
+hr {
+border: 0;
+height: 2px;
+background: linear-gradient(to right, transparent, var(--miku-aqua), transparent);
+margin: 25px 0;
+}
+a {
+color: var(--miku-light);
+font-weight: bold;
+transition: 0.3s;
+}
+a:hover {
+color: var(--miku-pink);
+text-shadow: 0 0 8px var(--miku-pink);
+}

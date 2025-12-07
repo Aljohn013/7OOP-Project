@@ -1,10 +1,5 @@
-# GitHub Pages Configuration
-# This ensures your portfolio site builds correctly using Jekyll.
-
-# Theme is disabled because you're using a custom HTML/CSS setup.
 theme: null
 
-# Exclude unnecessary files from GitHub Pages processing
 exclude:
   - README.md
   - LICENSE
@@ -12,12 +7,10 @@ exclude:
   - package.json
   - package-lock.json
 
-# Keep your custom assets
 keep_files:
   - miku.css
   - index.html
 
-# Enable GitHub Pages features
 markdown: kramdown
 kramdown:
   input: GFM

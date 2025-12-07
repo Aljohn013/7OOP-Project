@@ -1,9 +1,65 @@
+# ================================
+# 💙 OOP Portfolio — Site Config
+# ================================
+
 title: "💙 OOP Portfolio"
 description: "Object-Oriented Programming Portfolio"
+url: ""          # (Optional) Add your GitHub Pages URL later
+baseurl: ""      # Keep empty when deploying to username.github.io repo
+
+# ----------------
+# 📌 THEME
+# ----------------
 theme: jekyll-theme-modernist
 
-# Enable custom CSS
+# ----------------
+# 📌 MARKDOWN ENGINE
+# ----------------
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+# ----------------
+# 📌 INCLUDE CUSTOM FILES
+# ----------------
+# Allows GitHub Pages (Jekyll) to load your custom CSS or folders
 include:
   - assets/css/miku.css
+  - index.html
 
+# ----------------
+# 📌 EXCLUDE UNUSED FILES
+# ----------------
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - "*.psd"
+  - "*.ai"
+
+# ----------------
+# 📌 PERMALINK SETTINGS
+# ----------------
+permalink: pretty
+
+# ----------------
+# 📌 GITHUB PAGES FIXES
+# ----------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ----------------
+# 📌 SEO & SOCIAL (Optional)
+# ----------------
+author: "Aljohn Salalac"
+social:
+  github: "Aljohn013"
+  facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
+
+# ----------------
+# 📌 CUSTOM VARIABLES
+# ----------------
+miku_theme_color: "#39c5bb"

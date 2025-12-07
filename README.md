@@ -3,8 +3,8 @@
   <img src="https://i.pinimg.com/originals/8f/13/36/8f1336a31f3a5b29b8bccb9a0c90b9fc.gif" width="320">
 </p>
 
-<h1 align="center">💙🎤 Hatsune Miku — OOP Portfolio 🎶💻</h1>
-<p align="center"><i>Futuristic • Neon • Aesthetic • Powered by Miku Energy</i></p>
+<h1 align="center">💙 OOP Portfolio 🎶💻</h1>
+
 
 ---
 

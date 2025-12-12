@@ -3,38 +3,49 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Aljohn's OOP Portfolio — V2</title>
+<title>Aljohn's OOP Portfolio — V3 Hologram Edition</title>
+
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
 
-<div class="bg-animation"></div>
+<!-- 🔵 LOADING SCREEN -->
+<div id="loading-screen">
+    <div class="loader"></div>
+    <p>Booting Hatsune Miku Systems...</p>
+</div>
 
-<header class="hero">
+<!-- 🔵 IMAGE PARTICLE CANVAS -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- 🔵 FLOATING HOLOGRAM MIKU -->
+<img src="https://i.imgur.com/YsvZs0B.png" id="hologram-miku" />
+
+<!-- TOGGLE MUSIC -->
+<button class="music-btn" onclick="toggleMusic()">🎧</button>
+
+<audio id="bgm" loop>
+    <source src="https://files.catbox.moe/6y4j8u.mp3" type="audio/mp3" />
+</audio>
+
+<header class="hero fade-in">
     <img src="https://i.imgur.com/6cZ8n7P.gif" class="banner" />
-    <h1>💙 Aljohn's OOP Portfolio V2 💙</h1>
-    <h3>⚡ Powered by Hatsune Miku Energy ⚡</h3>
-
-    <button class="btn" onclick="toggleMusic()">🎧 Toggle Miku BGM</button>
-    <audio id="bgm" loop>
-        <source src="https://files.catbox.moe/6y4j8u.mp3" type="audio/mp3" />
-    </audio>
+    <h1>💙 Aljohn's OOP Portfolio V3 💙</h1>
+    <h3>✨ Hologram Miku UI System Loaded ✨</h3>
 </header>
 
-<section class="profile card-3d">
+<section class="profile card-3d fade-in">
     <img src="https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02" class="avatar" />
     <h2>About Me</h2>
     <p>
-        Hello! I'm <strong>Aljohn Salalac</strong>, a passionate programmer who loves
-        creating, exploring, and learning new things. 🌍💻  
-        Welcome to my futuristic OOP portfolio!
+        I’m <strong>Aljohn Salalac</strong>, programmer & creator.  
+        Welcome to my most futuristic animated OOP portfolio ever!
     </p>
 </section>
 
-<section class="skills">
+<section class="skills fade-in">
     <h2>🧠 Skills & Interests</h2>
-
     <div class="grid">
         <div class="skill-card card-3d">
             <h3>Interests</h3>
@@ -43,9 +54,8 @@
                 <li>🌐 Web Development</li>
             </ul>
         </div>
-
         <div class="skill-card card-3d">
-            <h3>Languages I Know</h3>
+            <h3>Languages</h3>
             <ul>
                 <li>C</li>
                 <li>Java</li>
@@ -55,7 +65,7 @@
     </div>
 </section>
 
-<section class="projects">
+<section class="projects fade-in">
     <h2>🚀 Projects</h2>
 
     <div class="grid">
@@ -63,7 +73,7 @@
         <div class="project-card card-3d">
             <h3>Midterm Projects</h3>
             <ul>
-                <li><a href="#">Object-Oriented Analysis</a></li>
+                <li><a href="#">OOP Analysis</a></li>
                 <li><a href="#">Lab Task 1</a></li>
                 <li><a href="#">Lab Task 2</a></li>
                 <li><a href="#">List Collections</a></li>
@@ -82,35 +92,12 @@
     </div>
 </section>
 
-<section class="fun card-3d">
+<section class="fun card-3d fade-in">
     <h2>💙 Fun Facts About Me</h2>
     <ul>
-        <li>💙 My girlfriend <b>Reynalyn</b> makes my life special 🥰</li>
-        <li>♟️ I love chess and video games.</li>
-        <li>📚 Books make my brain happy.</li>
-        <li>😴 Sleeping is my superpower.</li>
+        <li>💙 My girlfriend <b>Reynalyn</b> inspires me daily 🥰</li>
+        <li>♟️ I love chess and gaming.</li>
+        <li>📚 Books = power.</li>
+        <li>😴 Sleep is my skill buff.</li>
     </ul>
-</section>
-
-<section class="contact card-3d">
-    <h2>📬 Contact</h2>
-    <p>
-        <a href="https://facebook.com/aljohnpaul.salalac.7">Facebook</a> |
-        <a href="https://github.com/Aljohn013">GitHub</a>
-    </p>
-</section>
-
-<footer>
-    <p>💙 Made with passion, creativity, and Hatsune Miku vibes! 💙</p>
-</footer>
-
-<script>
-function toggleMusic() {
-    const music = document.getElementById("bgm");
-    if (music.paused) music.play();
-    else music.pause();
-}
-</script>
-
-</body>
-</html>
+</sect

@@ -1,59 +1,15 @@
-/* ------------------------------
-    GLOBAL THEME
---------------------------------*/
 :root {
     --miku-cyan: #39f0e6;
-    --miku-light: #a8fff9;
-    --miku-dark: #0f1f2f;
-    --bg-deep: #05080c;
-    --glass: rgba(255, 255, 255, 0.07);
+    --miku-dark: #0d1b2a;
+    --text-light: #e0faff;
 }
 
 body {
-    background: var(--bg-deep);
-    color: white;
     font-family: "Segoe UI", sans-serif;
+    background: #0a0f14;
+    color: var(--text-light);
     margin: 0;
-    overflow-x: hidden;
-}
-
-/* ------------------------------
-    BACKGROUND ANIMATION
---------------------------------*/
-.bg-animation {
-    position: fixed;
-    inset: 0;
-    background: radial-gradient(circle, #1b4857 0%, #051014 70%);
-    z-index: -1;
-}
-
-.bg-animation::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: url("https://i.imgur.com/GM5O5eE.png");
-    opacity: 0.1;
-    animation: float 25s infinite linear;
-}
-
-@keyframes float {
-    from { transform: translate(0, 0); }
-    to { transform: translate(-300px, -300px); }
-}
-
-/* ------------------------------
-    HERO
---------------------------------*/
-.hero {
-    text-align: center;
-    padding: 30px;
-}
-
-.banner {
-    width: 80%;
-    max-width: 700px;
-    border-radius: 12px;
-    box-shadow: 0 0 25px var(--miku-cyan);
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -61,75 +17,51 @@ h1, h2, h3 {
     text-shadow: 0 0 12px var(--miku-cyan);
 }
 
-/* ------------------------------
-    3D FLOATING CARDS
---------------------------------*/
-.card-3d {
-    background: var(--glass);
-    padding: 25px;
-    border-radius: 15px;
-    margin: 40px auto;
+a {
+    color: var(--miku-cyan);
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--miku-cyan);
+}
+
+.profile, .projects, .skills, .fun, .contact {
     width: 90%;
     max-width: 900px;
-    backdrop-filter: blur(12px);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(20, 40, 50, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
 }
 
-.card-3d:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 25px var(--miku-cyan);
-}
-
-/* ------------------------------
-    BUTTONS
---------------------------------*/
-.btn {
-    padding: 10px 20px;
-    background: var(--miku-cyan);
-    border: none;
-    color: black;
-    font-weight: bold;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 0 12px var(--miku-cyan);
-    transition: 0.2s;
-}
-
-.btn:hover {
-    background: var(--miku-light);
-}
-
-/* ------------------------------
-    GRID
---------------------------------*/
-.grid {
-    display: grid;
-    gap: 20px;
-}
-
-@media (min-width: 700px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* ------------------------------
-    AVATAR
---------------------------------*/
 .avatar {
     width: 140px;
     height: 140px;
     border-radius: 50%;
     border: 3px solid var(--miku-cyan);
-    box-shadow: 0 0 20px var(--miku-cyan);
+    box-shadow: 0 0 15px var(--miku-cyan);
 }
 
-/* ------------------------------
-    FOOTER
---------------------------------*/
-footer {
-    text-align: center;
-    padding: 30px;
-    color: var(--miku-light);
-    margin-top: 30px;
+.card {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
+
+footer {
+    margin: 40px 0;
+    text-align: center;
+    color: var(--miku-cyan);
+}
+

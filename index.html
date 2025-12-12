@@ -1,103 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Aljohn's OOP Portfolio — V3 Hologram Edition</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aljohn's OOP Portfolio — V3 Hologram Edition</title>
 
-<link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
 
-<!-- 🔵 LOADING SCREEN -->
+<!-- LOADING SCREEN -->
 <div id="loading-screen">
-    <div class="loader"></div>
-    <p>Booting Hatsune Miku Systems...</p>
+  <div class="loader"></div>
+  <p>Booting Hatsune Miku Systems...</p>
 </div>
 
-<!-- 🔵 IMAGE PARTICLE CANVAS -->
+<!-- PARTICLE CANVAS -->
 <canvas id="particle-canvas"></canvas>
 
-<!-- 🔵 FLOATING HOLOGRAM MIKU -->
-<img src="https://i.imgur.com/YsvZs0B.png" id="hologram-miku" />
+<!-- FLOATING HOLOGRAM MIKU -->
+<img src="https://i.imgur.com/YsvZs0B.png" id="hologram-miku" alt="Hatsune Miku Hologram"/>
 
 <!-- TOGGLE MUSIC -->
 <button class="music-btn" onclick="toggleMusic()">🎧</button>
 
 <audio id="bgm" loop>
-    <source src="https://files.catbox.moe/6y4j8u.mp3" type="audio/mp3" />
+  <source src="https://files.catbox.moe/6y4j8u.mp3" type="audio/mp3" />
 </audio>
 
 <header class="hero fade-in">
-    <img src="https://i.imgur.com/6cZ8n7P.gif" class="banner" />
-    <h1>💙 Aljohn's OOP Portfolio V3 💙</h1>
-    <h3>✨ Hologram Miku UI System Loaded ✨</h3>
+  <img src="https://i.imgur.com/6cZ8n7P.gif" class="banner" alt="Hatsune Miku Banner"/>
+  <h1>💙 Aljohn's OOP Portfolio V3 💙</h1>
+  <h3>✨ Hologram Miku UI System Loaded ✨</h3>
 </header>
 
 <section class="profile card-3d fade-in">
-    <img src="https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02" class="avatar" />
-    <h2>About Me</h2>
-    <p>
-        I’m <strong>Aljohn Salalac</strong>, programmer & creator.  
-        Welcome to my most futuristic animated OOP portfolio ever!
-    </p>
+  <img src="https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02" class="avatar" alt="Aljohn's Avatar"/>
+  <h2>About Me</h2>
+  <p>
+    I’m <strong>Aljohn Salalac</strong>, programmer & creator.  
+    Welcome to my most futuristic animated OOP portfolio ever!
+  </p>
 </section>
 
 <section class="skills fade-in">
-    <h2>🧠 Skills & Interests</h2>
-    <div class="grid">
-        <div class="skill-card card-3d">
-            <h3>Interests</h3>
-            <ul>
-                <li>🎮 Game Development</li>
-                <li>🌐 Web Development</li>
-            </ul>
-        </div>
-        <div class="skill-card card-3d">
-            <h3>Languages</h3>
-            <ul>
-                <li>C</li>
-                <li>Java</li>
-                <li>SQL</li>
-            </ul>
-        </div>
+  <h2>🧠 Skills & Interests</h2>
+  <div class="grid">
+    <div class="skill-card card-3d">
+      <h3>Interests</h3>
+      <ul>
+        <li>🎮 Game Development</li>
+        <li>🌐 Web Development</li>
+      </ul>
     </div>
+    <div class="skill-card card-3d">
+      <h3>Languages</h3>
+      <ul>
+        <li>C</li>
+        <li>Java</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="projects fade-in">
-    <h2>🚀 Projects</h2>
-
-    <div class="grid">
-
-        <div class="project-card card-3d">
-            <h3>Midterm Projects</h3>
-            <ul>
-                <li><a href="#">OOP Analysis</a></li>
-                <li><a href="#">Lab Task 1</a></li>
-                <li><a href="#">Lab Task 2</a></li>
-                <li><a href="#">List Collections</a></li>
-                <li><a href="#">Dictionaries</a></li>
-                <li><a href="#">Classes & Objects</a></li>
-            </ul>
-        </div>
-
-        <div class="project-card card-3d">
-            <h3>Finals Project</h3>
-            <ul>
-                <li><a href="#">Encapsulation Lab</a></li>
-            </ul>
-        </div>
-
+  <h2>🚀 Projects</h2>
+  <div class="grid">
+    <div class="project-card card-3d">
+      <h3>Midterm Projects</h3>
+      <ul>
+        <li><a href="#">OOP Analysis</a></li>
+        <li><a href="#">Lab Task 1</a></li>
+        <li><a href="#">Lab Task 2</a></li>
+        <li><a href="#">List Collections</a></li>
+        <li><a href="#">Dictionaries</a></li>
+        <li><a href="#">Classes & Objects</a></li>
+      </ul>
     </div>
+    <div class="project-card card-3d">
+      <h3>Finals Project</h3>
+      <ul>
+        <li><a href="#">Encapsulation Lab</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="fun card-3d fade-in">
-    <h2>💙 Fun Facts About Me</h2>
-    <ul>
-        <li>💙 My girlfriend <b>Reynalyn</b> inspires me daily 🥰</li>
-        <li>♟️ I love chess and gaming.</li>
-        <li>📚 Books = power.</li>
-        <li>😴 Sleep is my skill buff.</li>
-    </ul>
-</sect
+  <h2>💙 Fun Facts About Me</h2>
+  <ul>
+    <li>💙 My girlfriend <b>Reynalyn</b> inspires me daily 🥰</li>
+    <li>♟️ I love chess and gaming.</li>
+    <li>📚 Books = power.</li>
+    <li>😴 Sleep is my skill buff.</li>
+  </ul>
+</section>
+
+<section class="contact card-3d fade-in">
+  <h2>📬 Contact</h2>
+  <p>
+    <a href="https://facebook.com/aljohnpaul.salalac.7">Facebook</a> |
+    <a href="https://github.com/Aljohn013">GitHub</a>
+  </p>
+</section>
+
+<footer>
+  <p>💙 Hologram UI by Aljohn | Powered by Miku 💙</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

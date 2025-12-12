@@ -1,20 +1,23 @@
----
 title: "Aljohn's OOP Portfolio"
 description: "A Hatsune Miku–themed programming portfolio featuring Java, C, and SQL projects."
-theme: null
+theme: minima
 markdown: kramdown
 highlighter: rouge
+
 sass:
-style: compressed
+  style: compressed
+
 include:
-- assets/css/style.css
+  - assets/css/style.css
+
 author:
-name: "Aljohn Paul Salalac"
-avatar: "https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02"
+  name: "Aljohn Paul Salalac"
+  avatar: "https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02"
+
 social_links:
-github: "https://github.com/Aljohn013"
-facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
+  github: "https://github.com/Aljohn013"
+  facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
+
 plugins:
-- jekyll-feed
-- jekyll-seo-tag
----
+  - jekyll-feed
+  - jekyll-seo-tag

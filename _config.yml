@@ -1,25 +1,22 @@
 title: "Aljohn's OOP Portfolio"
-description: "A clean and modern programming portfolio featuring Java, C, and SQL projects."
+description: "A programming portfolio featuring Java, C, and SQL projects."
 theme: minima
-
-
 markdown: kramdown
 highlighter: rouge
-
 
 sass:
 style: compressed
 
+include:
+- assets/css/style.css
 
 author:
 name: "Aljohn Paul Salalac"
-avatar: "/assets/img/avatar.png"
-
+avatar: "https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02"
 
 social_links:
-github: Aljohn013
-facebook: aljohnpaul.salalac.7
-
+github: "https://github.com/Aljohn013"
+facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
 
 plugins:
 - jekyll-feed

@@ -1,66 +1,82 @@
 :root {
---miku-cyan: #39f0e6;
---miku-dark: #0d1b2a;
---text-light: #e0faff;
+  --accent: #39f0e6;
+  --dark: #0a0f14;
+  --card-bg: rgba(20, 40, 50, 0.55);
+  --text: #e0faff;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-font-family: "Segoe UI", sans-serif;
-background: #0a0f14;
-color: var(--text-light);
-margin: 0;
-padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--dark);
+  color: var(--text);
+  margin: 0;
 }
 
 h1, h2, h3 {
-color: var(--miku-cyan);
-text-shadow: 0 0 12px var(--miku-cyan);
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent);
 }
 
 a {
-color: var(--miku-cyan);
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .hero {
-text-align: center;
-padding: 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-.banner {
-width: 80%;
-max-width: 700px;
-border-radius: 10px;
-box-shadow: 0 0 20px var(--miku-cyan);
-}
-
-.profile, .projects, .skills, .fun, .contact {
-width: 90%;
-max-width: 900px;
-margin: 40px auto;
-padding: 20px;
-background: rgba(20, 40, 50, 0.5);
-border-radius: 15px;
-backdrop-filter: blur(10px);
-box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
+.profile, .skills, .projects, .fun, .contact {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 25px;
+  background: var(--card-bg);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
 }
 
 .avatar {
-width: 140px;
-height: 140px;
-border-radius: 50%;
-border: 3px solid var(--miku-cyan);
-box-shadow: 0 0 15px var(--miku-cyan);
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid var(--accent);
+  display: block;
+  margin: 0 auto 20px;
 }
 
 .card {
-background: rgba(0, 0, 0, 0.3);
-padding: 15px;
-border-radius: 10px;
-margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* PROJECT CARDS */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 20px;
+  border-radius: 14px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px var(--accent);
 }
 
 footer {
-margin: 40px 0;
-text-align: center;
-color: var(--miku-cyan);
+  text-align: center;
+  padding: 30px;
+  color: var(--accent);
 }

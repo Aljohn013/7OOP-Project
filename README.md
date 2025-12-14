@@ -1,45 +1,24 @@
-# 💙 Aljohn’s Object-Oriented Programming Portfolio
+# 💙 Aljohn’s OOP Project Portfolio
 
+Welcome to my official Object-Oriented Programming portfolio!
+This project is to showcases my Java, C, and SQL programming journey.
 
-Welcome to my **Object-Oriented Programming Portfolio** — a curated collection of my academic and personal projects using **Java, C, and SQL**.
+## 🧑‍💻 About Me
+I’m **Aljohn Paul Salalac**, a passionate tech student who loves building and learning new things.
+My interests include:
 
-
-This portfolio highlights my growth as a developer, my problem‑solving mindset, and my passion for building meaningful software.
-
-
----
-
-
-## 👤 About Me
-
-
-Hi! I’m **Aljohn Paul Salalac**, a motivated tech student who enjoys learning by building projects.
-
-
-### Interests
 - 🎮 Game Development
 - 🌐 Web Development
-- 💻 Object‑Oriented Programming
+- 💻 Object-Oriented Programming
 
+## 🛠️ Technologies
+- C
+- Java
+- SQL
 
----
-
-
-## 🛠️ Technologies Used
-- **C** – Fundamentals & logic building
-- **Java** – Object‑Oriented Programming
-- **SQL** – Data handling & queries
-
-
----
-
-
-## 🚀 Live Portfolio
+## 🚀 Projects
+See the full portfolio here:
 👉 **https://aljohn013.github.io/7OOP-Project/**
 
-
----
-
-
 ## 💙 Credits
-Built with passion, curiosity, and continuous learning.
+Made with passion, creativity, and hardwork!

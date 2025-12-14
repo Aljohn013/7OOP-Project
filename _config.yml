@@ -1,19 +1,23 @@
-title: "Aljohn’s OOP Portfolio"
+title: "Aljohn's OOP Portfolio"
 description: "A programming portfolio featuring Java, C, and SQL projects."
 theme: minima
-
-author:
-  name: "Aljohn Paul Salalac"
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
 markdown: kramdown
 highlighter: rouge
 
 sass:
-  style: compressed
+style: compressed
 
-# IMPORTANT: Do NOT include CSS files here
-# GitHub Pages auto-loads assets correctly
+include:
+- assets/css/style.css
+
+author:
+name: "Aljohn Paul Salalac"
+avatar: "https://github.com/user-attachments/assets/0b61e032-3fc6-4170-85e4-e1576add2a02"
+
+social_links:
+github: "https://github.com/Aljohn013"
+facebook: "https://www.facebook.com/aljohnpaul.salalac.7"
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
